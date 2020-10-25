@@ -5,14 +5,13 @@ Flask are used in python to build a web application. The application makes use o
 2. Installation via requirements.txt
 
 ```shell
-$ cd MovieCenter
+$ cd MOVIE-web-app
 $ py -3 -m venv venv
 $ venv\Scripts\activate
 $ pip install -r requirements.txt
+```
 
-
-
-Setting the virtual environment in Pycharm using 'File'->'Settings' and select 'Project:MovieCenter' from the left menu. Select 'Project Interpreter', click on the gearwheel button and select 'Add'. Click the 'Existing environment' radio button to select the virtual environment. 
+Setting the virtual environment in Pycharm using 'File'->'Settings' and select 'Project:MOVIE-web-app' from the left menu. Select 'Project Interpreter', click on the gearwheel button and select 'Add'. Click the 'Existing environment' radio button to select the virtual environment. 
 
 
 
