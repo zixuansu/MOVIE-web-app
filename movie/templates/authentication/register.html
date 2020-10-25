@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>home</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/movieslist.css"> -->
+	<link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename = 'css/login.css') }}">
+</head>
+<body>
+	<!-- bar -->
+	<ul class="bar clearfix">
+		<li class="home pull-left"><a href="#" >home</a></li>
+		<li class="login pull-right"><a href="#">login</a></li>
+		<li class="message pull-right"><a href="#" >message</a></li>
+		<li class="search pull-right"><a href="" >search</a></li>
+	</ul>
+	<!-- header -->
+	<!-- content -->
+	<div class="content">
+		<form id="login" method="post">
+			<h2>Welcome to my movie web</h2>
+			<input type="text" name="user" placeholder="Please enter your account"><br>
+			<input type="password" name="pwd" placeholder="Please enter your password"><br>
+			<!-- <input type="submit" value="login"> -->
+			<input type="submit" value="register">
+			<span>{{message}}</span>
+		</form>
+
+	</div>
+	<!-- footer -->
+</body>
+</html>
