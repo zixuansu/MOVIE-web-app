@@ -1,8 +1,8 @@
-1. Brief of the application
+# Brief of the application
 Flask are used in python to build a web application. The application makes use of libraries such as the Jinja templating library and WTForms. 
 
 
-2. Installation via requirements.txt
+# Installation via requirements.txt
 
 ```shell
 $ cd MOVIE-web-app
@@ -15,7 +15,7 @@ Setting the virtual environment in Pycharm using 'File'->'Settings' and select '
 
 
 
-3.Run the application
+# Run the application
 
 In the activated virtual environment
 
@@ -24,7 +24,7 @@ $ flask run
 ```` 
 
 
-3. Layout
+# Layout
 
 Needed variables and values in MovieCenter/.env file/.
 * `FLASK_APP`: Entry point of the application (should always be `wsgi.py`).
